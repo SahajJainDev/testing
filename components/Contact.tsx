@@ -20,7 +20,7 @@ export default function Contact() {
 
           <div className="pt-8">
             <Link 
-               href="https://wa.me/91XXXXXXXXXX" 
+               href="https://wa.me/917075839900" 
                className="inline-flex items-center gap-2 text-accent border-b border-accent pb-1 hover:opacity-80 transition-opacity"
             >
               <MessageCircle size={18} />
@@ -54,8 +54,10 @@ export default function Contact() {
         </div>
       </div>
 
-      <footer className="mt-24 pt-8 border-t border-white/5 text-center text-xs text-gray-600">
-        <p>© 2026 Nailovy. Designed for elegance.</p>
+      <footer className="mt-24 pt-8 border-t border-white/5 text-center text-xs text-white/40">
+        <a href="mailto:sahajjain78@gmail.com" className="hover:text-white/70 transition-colors">
+          © 2026 Nailovy. Designed for elegance.
+        </a>
       </footer>
     </section>
   );

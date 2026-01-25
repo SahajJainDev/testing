@@ -2,7 +2,24 @@
 
 import { motion } from "framer-motion";
 
-const services = [
+type ServiceVariant = {
+  name: string;
+  price: string;
+};
+
+type ServiceItem = {
+  name: string;
+  price?: string;
+  variants?: ServiceVariant[];
+};
+
+type ServiceSection = {
+  category: string;
+  note?: string;
+  items: ServiceItem[];
+};
+
+const services: ServiceSection[] = [
   {
     category: "Hair Styling",
     items: [
