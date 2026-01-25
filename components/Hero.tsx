@@ -46,7 +46,9 @@ export default function Hero() {
           transition={{ delay: 1.5, duration: 1 }}
         >
           <Link
-            href="https://wa.me/917075839900" // Replace with actual number
+            href="https://api.whatsapp.com/send?phone=917075839900" 
+            target="_blank"
+            rel="noopener noreferrer"     
             className="px-8 py-3 bg-white/5 border border-white/20 rounded-full text-sm uppercase tracking-wider backdrop-blur-sm text-white hover:bg-white/10 hover:border-accent transition-all duration-300"
           >
             Book Appointment
