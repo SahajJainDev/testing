@@ -20,7 +20,9 @@ export default function Contact() {
 
           <div className="pt-8">
             <Link 
-               href="https://wa.me/917075839900" 
+               href="https://api.whatsapp.com/send?phone=917075839900" 
+               target="_blank"
+               rel="noopener noreferrer"
                className="inline-flex items-center gap-2 text-accent border-b border-accent pb-1 hover:opacity-80 transition-opacity"
             >
               <MessageCircle size={18} />
