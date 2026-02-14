@@ -24,7 +24,7 @@ const services: ServiceSection[] = [
     category: "Hair Styling",
     items: [
       { name: "Hair Wash", price: "₹499" },
-      { name: "Advantage Hair Wash", price: "₹700" },
+      { name: "Advance Hair Wash", price: "₹800" },
       { name: "Hair Wash + Blowdry", price: "₹899" },
       { name: "Hyper Effect Blowdry", price: "₹1099" },
       { name: "Straightening (Temporary)", price: "₹1299" },
@@ -37,7 +37,7 @@ const services: ServiceSection[] = [
     category: "✂️ Hair Cuts & Trims",
     items: [
       { name: "Basic Hair Cut", price: "₹550" },
-      { name: "Advanced Hair Cut", price: "₹1700" },
+      { name: "Advance Hair Cut", price: "₹1500" },
     ],
   },
   {
